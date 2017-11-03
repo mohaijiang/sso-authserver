@@ -1,0 +1,12 @@
+server.contextPath: /uaa
+security:
+  user:
+    password: password
+  ignored: /css/**,/js/**,/favicon.ico,/webjars/**
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/authserver?useSSL=false
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
